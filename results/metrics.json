@@ -1,0 +1,82 @@
+{
+  "split": "test",
+  "num_images": 161,
+  "conf_threshold": 0.25,
+  "match_iou": 0.5,
+  "headline": {
+    "macro_recall": 0.7463,
+    "mAUPRC": 0.7993,
+    "worst_class_recall": {
+      "corrosion": 0.5682
+    }
+  },
+  "per_class": {
+    "craze": {
+      "recall": 0.7547,
+      "precision": 0.7547,
+      "f1": 0.7547,
+      "auprc": 0.7725,
+      "support": 53,
+      "tp": 40,
+      "fp": 13,
+      "fn": 13
+    },
+    "corrosion": {
+      "recall": 0.5682,
+      "precision": 0.625,
+      "f1": 0.5952,
+      "auprc": 0.6348,
+      "support": 44,
+      "tp": 25,
+      "fp": 15,
+      "fn": 19
+    },
+    "surface_injure": {
+      "recall": 0.8246,
+      "precision": 0.8545,
+      "f1": 0.8393,
+      "auprc": 0.8514,
+      "support": 57,
+      "tp": 47,
+      "fp": 8,
+      "fn": 10
+    },
+    "thunderstrike": {
+      "recall": 0.9091,
+      "precision": 1.0,
+      "f1": 0.9524,
+      "auprc": 0.9924,
+      "support": 11,
+      "tp": 10,
+      "fp": 0,
+      "fn": 1
+    },
+    "crack": {
+      "recall": 0.8529,
+      "precision": 0.9667,
+      "f1": 0.9062,
+      "auprc": 0.9336,
+      "support": 34,
+      "tp": 29,
+      "fp": 1,
+      "fn": 5
+    },
+    "hide_craze": {
+      "recall": 0.5682,
+      "precision": 0.6757,
+      "f1": 0.6173,
+      "auprc": 0.6111,
+      "support": 44,
+      "tp": 25,
+      "fp": 12,
+      "fn": 19
+    }
+  },
+  "macro": {
+    "recall": 0.7463,
+    "precision": 0.8128,
+    "f1": 0.7775,
+    "mAUPRC": 0.7993
+  },
+  "note": "Accuracy omitted (accuracy paradox under class imbalance); recall & AUPRC are the safety metrics."
+}
