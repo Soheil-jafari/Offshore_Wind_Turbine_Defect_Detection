@@ -1,0 +1,29 @@
+# Dataset (excluded — download/prepare separately)
+/data/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.ckpt
+*.weights
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Ultralytics / training runs
+runs/
+yolo*.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
