@@ -1,0 +1,26 @@
+{
+  "crop_size": 128,
+  "epochs": 20,
+  "final_train_mse": 0.002045,
+  "counts": {
+    "train_healthy": 3717,
+    "test_healthy": 600,
+    "test_defect": 243
+  },
+  "reconstruction_error": {
+    "healthy_mean": 0.00195,
+    "healthy_std": 0.002184,
+    "defect_mean": 0.00604,
+    "defect_std": 0.005035
+  },
+  "separation": {
+    "roc_auc": 0.8279,
+    "auprc": 0.6776
+  },
+  "operating_point": {
+    "threshold_healthy_p95": 0.005196,
+    "defect_detection_rate": 0.4198,
+    "healthy_false_positive_rate": 0.05
+  },
+  "note": "Trained on healthy crops only; defect labels were not used in training."
+}
